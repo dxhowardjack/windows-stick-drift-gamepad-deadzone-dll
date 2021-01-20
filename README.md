@@ -8,11 +8,11 @@ Or just place the patched dll in game execution directory. (it's not working in 
 ****
 to change deadzone range, you can use tool like 'HxD' to edit my patched dll  
 32 bit:  
-offset 000234EE    0x68  
-offset 000234F2    0x98  
+offset 000234EE &nbsp;&nbsp;&nbsp;0x68  
+offset 000234F2 &nbsp;&nbsp;&nbsp;0x98  
 64 bit:  
-offset 00028311    0x68  
-offset 00028316    0x98  
+offset 00028311 &nbsp;&nbsp;&nbsp;0x68  
+offset 00028316 &nbsp;&nbsp;&nbsp;0x98  
 analog stick value range:  
 0x0........0x68 deadzone 0x98........0xff  
 ****
