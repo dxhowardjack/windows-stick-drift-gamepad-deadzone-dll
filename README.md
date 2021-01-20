@@ -4,8 +4,8 @@ This is a dll replacing to fix windows gamepad analog stick off center problem (
 The files are win10 solution now.
 
 You may enter windows 'safe mode' and change the dll owner from 'trustedinstaller' to 'Users' to get permission to replace the system dll.  
+(be aware 32 bit dll is in Windows\SysWOW64 folder, and 64 bit dll is in Windows\System32.)  
 Or just place the patched dll in game execution directory. (it's not working in some case)  
-(be aware 32 bit dll is in Windows\SysWOW64 folder, and 64 bit dll is in Windows\System32.)
 
 ****
 to change deadzone range, you can use tool like 'HxD' to edit my patched dll  
