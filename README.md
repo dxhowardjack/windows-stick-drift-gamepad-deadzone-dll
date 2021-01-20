@@ -6,7 +6,7 @@ Or just place the patched dll in game execution directory. (it's not working in 
 (be aware 32 bit is in Windows\SysWOW64 folder, and 64 bit is in Windows\System32.)
 
 ****
-to change deadzone range, you can use tool like 'HxD' to edit my patched file  
+to change deadzone range, you can use tool like 'HxD' to edit my patched dll  
 32 bit:  
 offset 000234EE 0x68  
 offset 000234F2 0x98  
@@ -14,7 +14,7 @@ offset 000234F2 0x98
 offset 00028311 0x68  
 offset 00028316 0x98  
 patched deadzone range:  
-0x0........0x68 <deadzone> 0x98........0xff  
+0x0........0x68 deadzone 0x98........0xff  
 ****
 
 The files are win10 solution now.
