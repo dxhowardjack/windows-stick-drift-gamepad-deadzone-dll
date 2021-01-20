@@ -24,4 +24,5 @@ Or change the deadzone range if you want.
 
 I don't have XBOX controller, so please let me know whether it works if you meet this requirement:)
 
+Give Star
 Me happy.
