@@ -13,7 +13,7 @@ offset 000234F2 0x98
 64 bit:  
 offset 00028311 0x68  
 offset 00028316 0x98  
-patched deadzone range:  
+analog value range:  
 0x0........0x68 deadzone 0x98........0xff  
 ****
 
