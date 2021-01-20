@@ -1,4 +1,4 @@
-# windows-gamepad-off-center-deadzone-dll
+# windows-off-center-gamepad-deadzone-dll
 This is a dll replacing to fix windows gamepad analog stick off center problem (stick drift) by implementing deadzone.
 
 You may enter windows 'safe mode' and change the dll owner from 'trustedinstaller' to 'Users' to get permission to replace the system dll.  
