@@ -5,7 +5,7 @@ The files are win10, and winxp solutions now.
 
 For win10, you may enter windows 'safe mode' and change the dll owner from 'trustedinstaller' to 'Users' to get permission to replace the system dll.  
 (be aware 32 bit dll is in Windows\SysWOW64 folder, and 64 bit dll is in Windows\System32.)  
-For winxp32, you have to replace dll in WINDOWS\system32\dllcache, too.
+For winxp32, you have to replace dll in WINDOWS\system32\dllcache, too.  
 Or just place the patched dll in game execution directory. (it's not working in some case)  
 
 ****
@@ -19,6 +19,7 @@ offset 00028316 &nbsp;&nbsp;&nbsp;0x98
 xp32 bit:  
 offset 00016767 &nbsp;&nbsp;&nbsp;0x68  
 offset 0001676C &nbsp;&nbsp;&nbsp;0x98  
+  
 analog stick value range:  
 0x0........0x68 deadzone 0x98........0xff  
 ****
