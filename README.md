@@ -1,7 +1,7 @@
 # windows-stick-drift-gamepad-deadzone-dll
 This is a dll replacing to fix windows gamepad analog stick off center problem (stick drift) by implementing deadzone.
 
-The files are win10 solution now.
+The files are win10, and winxp solutions now.
 
 You may enter windows 'safe mode' and change the dll owner from 'trustedinstaller' to 'Users' to get permission to replace the system dll.  
 (be aware 32 bit dll is in Windows\SysWOW64 folder, and 64 bit dll is in Windows\System32.)  
@@ -15,6 +15,9 @@ offset 000234F2 &nbsp;&nbsp;&nbsp;0x98
 64 bit:  
 offset 00028311 &nbsp;&nbsp;&nbsp;0x68  
 offset 00028316 &nbsp;&nbsp;&nbsp;0x98  
+xp32 bit:  
+offset 00016767 &nbsp;&nbsp;&nbsp;0x68  
+offset 0001676C &nbsp;&nbsp;&nbsp;0x98  
 analog stick value range:  
 0x0........0x68 deadzone 0x98........0xff  
 ****
