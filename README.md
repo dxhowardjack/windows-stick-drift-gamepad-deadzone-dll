@@ -1,3 +1,5 @@
+# Notice: ***On newer OS, the stick analog value should be 2 bytes in register! (that i implemented in Win11x64.zip)***
+
 # windows-stick-drift-gamepad-deadzone-dll
 This is a dll replacing to fix windows gamepad analog stick off center problem (stick drift) by implementing deadzone.
 
